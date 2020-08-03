@@ -3,5 +3,5 @@
 Installation:
 
 ```
-remotes::install_packages("conig/xox")
+remotes::install_github("conig/xox")
 ```
