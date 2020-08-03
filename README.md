@@ -7,6 +7,7 @@ remotes::install_github("conig/xox")
 ```
 
 ```
+library(xox)
 xox()
 ```
 
