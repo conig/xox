@@ -6,6 +6,12 @@ Installation:
 remotes::install_github("conig/xox")
 ```
 
+```
+xox()
+```
+
+
+```
 'exit' to quit
 
 
@@ -22,3 +28,5 @@ remotes::install_github("conig/xox")
 
     ...................
     Your move: what will it be [row, column]?
+
+```
