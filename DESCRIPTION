@@ -1,0 +1,15 @@
+Package: xox
+Title: Noughts and crosses
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "James",
+           family = "Conigrave",
+           role = c("aut", "cre"),
+           email = "james@conigrave.com",
+           comment = c(ORCID = "0000-0002-8816-6229"))
+Description: Play noughts and crosses against the computer
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
