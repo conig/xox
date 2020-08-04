@@ -4,6 +4,7 @@
 #' @export
 
 xox = function(){
+requireNamespace("xox", quietly = TRUE)
 
   game_data <- matrix(ncol = 3, nrow = 3)
 
@@ -56,16 +57,17 @@ xox = function(){
 
     winner <- check_winner(game_data, player = "A", ai = FALSE)
 
+    if(winner){
+      message("You win!!")
+      next
+    }
+
     if (sum(!is.na(game_data)) == 9) {
       winner <- TRUE
       message("DRAW!")
       next
     }
 
-    if(winner){
-      message("You win!!")
-      next
-    }
 
     console_board(game_data, "AI moving")
     Sys.sleep(1.5)
